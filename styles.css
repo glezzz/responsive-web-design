@@ -1,0 +1,36 @@
+*{box-sizing: border-box
+}
+@media only screen and (max-width:300px){
+    body{
+        background-color: red;
+        font-size: 2vw;
+
+    }
+    #small {width: 100%;
+    }
+    #medium {
+    width: 100%
+    }
+    #large {
+    width: 100%}
+}
+@media only screen and (min-width: 301px) and (max-width:768px){
+    body{
+        background-color: green;
+        font-size: 16px;
+    }
+    #small {width: 66%}
+    #medium{width: 33%}
+    #large {width: 100%}
+}
+@media only screen and (min-width:769px){
+    body{
+        background-color: blue;
+    }
+    #small {width: 33%;
+    float:left}
+    #medium {width: 33%;
+    float:left}
+    #large {width: 33%;
+    float:left}
+}
